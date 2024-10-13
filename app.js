@@ -17,6 +17,6 @@ app.get('/', (req, res) => {
 
 require('./routes/krei.route.js')(app);
 
-app.listen(80, () => {
+app.listen(5000, () => {
     console.log('server is running');
 });
